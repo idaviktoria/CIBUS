@@ -10,79 +10,21 @@
 
     <title>Cibus linjeforening</title>
     <link rel="icon" href="images/CIBUS-LOGO-SVART.svg">
+    <link rel="stylesheet" href="style.css">
 
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router@2.0.0/dist/vue-router.js"></script>
+
 
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-expand-lg static-top navbar-dark">
-        <a class="navbar-brand" href="index.html">
-            <div class="logo-image">
-                <img src="images/method-draw-image.svg" class="img-fluid" title="Cibus main logo" alt="yea" >
-            </div>
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="styret.html">Styret</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kalender.html">Arrangement</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="matnytt.html">Matnytt</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="statutter.html">Statutter</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="kontoret.html">Kontoret</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nystudent.html">Ny student?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="EmulgatKOR.html">EmulgatKOR</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="fadderuka21.html">Fadderuka 2021</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Cibus linjeforening</h1>
-                <p class="lead">
-                    <h7>Velkommen til nettsiden for linjeforening for matvitenskap, teknologi og bærekraft ved NTNU
-                        Trondheim! Nettsiden er et pågående arbeid og det bes være oppmerksom på mangler. Den er
-                        forhåpentligvis nærmere ferdigstilt i august 2021.</h7>
-                    <br>
-                    <img src="images/CIBUS-LOGO-SVART.svg" width="42%" height="43%">
-                </p>
-            </div>
-        </div>
+    <div id="app">
+        <router-view></router-view>
     </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
-
 </body>
-
+<script type="module" src="./src/router.js" charset="utf-8"></script>
+    
 </html>
