@@ -1,22 +1,18 @@
 
 
 export default {
+    name: 'navigation',
     data() {
         return {
-            links: ['index', 'styret', 'ny-student', 'fadderuka']
+            links: ['#/index', '#/styret', '#/ny-student', '#/fadderuka']
         }
     },
-    name: 'navigation',
-    methods: {
-       
-
-        
-    },
+    methods: {},
 
     template: `
-        <nav>
-            <a v-for="link in links" href="link">{{ link }}</a>
-        </nav>
+    <nav>
+        <a v-for="link in links" v-bind:href="link">{{ link.substring(2) }}</a>
+    </nav>
     `,
 
    
