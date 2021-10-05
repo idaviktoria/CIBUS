@@ -1,9 +1,9 @@
 
 # Index
 * [Installing NodeJS](#Installing-NodeJS)
-* [#Using the terminal](#Using-the-terminal)
+* [Using the terminal](#Using-the-terminal)
 * [Installing and usage of Git](#Installing-and-usage-of-Git)
-
+* [Setting up this project on your computer](#Setting-u-pthis-project-on-your-computer)
 
 # Installing NodeJS
 Node is a server runtime built around the chrome V8 engine for javascript. Node will take care of everything that needs to happen on the server. Together with node comes 'npm' with stands for node package manager. It will take care of all the modules which the projects depend on. A module is a bundle of function and objects we can use in our code. 
@@ -30,6 +30,7 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * `git add .`  for all staging all files
 * `git add <file name> <file name>` for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
 * `git commit -m "<commit message>"` the commit message should briefly describe the changes you have made to the branch
+* `git commit -am.` commits without a message 
 * `git push origin <branch name>` for pushing the commited code to the remote github repository
 
 ### Pulling 
