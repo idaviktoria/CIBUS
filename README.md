@@ -9,12 +9,13 @@ How to download node:
 * Close all terminal windows for the installation to take effect
 * Check if node was propely installed by running `node -v` in the terminal
 
-# Using the termianl
-* `dir` to list the files and directories in your current directory
+# Using the terminal
+* On windows, open the termianl by searching `cmd` on your computer
+* `dir` to list the files and subdirectories in your current directory
 * `cd <directory name>` to navigate to subdirectory. Use `cd ..` to navigate back to parent directory.
-* `mkdir <directory name>` 
+* `mkdir <directory name>` to create a new directory
 
-# Installing and using Git
+# Installing and usage of Git
 Go to https://git-scm.com/download/ and download 64-bit version for your system
 ### Initializing and setup new repository
 * `git init` initializes the new repository
@@ -25,7 +26,7 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * `git add .`  for all staging all files
 * `git add <file name> <file name>` , for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
 * `git commit -m "<commit message>"` the commit message should briefly describe the changes you have made to the branch
-* `git push origin <branch name>` for pushing the commited code to the common remote github repository
+* `git push origin <branch name>` for pushing the commited code to the remote github repository
 
 ### Pulling code
 * `git pull origin <branch name>` To pull the changes from the remote repository
@@ -39,14 +40,16 @@ The changes you make to the project should not be commited to the local or remot
 * `git checkout -b <new branch name>` to both create a new branch and switch to it
 * Make sure to always push to specific branch. If no branch is specified, then the changes may be pushed to the master branch, overriding the content there.
 * After making a new branch and checking out to it, you can stage and commit as usual
+* `git branch -d <local branch name>` to delete a branch locally
+* `git push origin --delete <remote branch name>` to delete a branch remotelly
 
 
-# Setting up the project on your computer
-* Open up the terminal and navigate to the folder you want your local version of the project in
-* Run `git clone https://github.com/sigrikd/CIBUS.git`
-* Run `npm install`
-* Run `npm start`
-* Type in `localhost:3000` in the search filed in your browser
+# Setting up this project on your computer
+* Open up the terminal and navigate to the folder you want your local version of the project in and rum the following commands
+* `git clone https://github.com/sigrikd/CIBUS.git`
+* `npm install`
+* `npm start`
+* Type in `localhost:3000` in the search bar in your browser
 
 
 
