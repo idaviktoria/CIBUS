@@ -11,11 +11,15 @@ export default {
 
     template: `
     <nav>
-        <a v-for="link in links" v-bind:href="link">{{ link.substring(2) }}</a>
-    </nav>
-    `,
+        <div> 
+            <a id="nav-img"> <img src="images/cibus-logo.svg" alt=""> </a>     
+        </div>
 
-   
+        <div v-for="link in links"> 
+            <a v-bind:href="link">{{ link.substring(2) }}</a>
+        </div>
+    </nav>
+    `,   
 }
 
 

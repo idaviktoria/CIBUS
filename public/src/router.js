@@ -1,6 +1,4 @@
-
 import Index from "./index.js";
-
 
 
 const routes = [
