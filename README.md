@@ -7,8 +7,7 @@ How to download node:
 * Go to https://nodejs.org/en/ and download the version which says latest (lts)
 * Follow the installation instructions, make sure node is added to path
 * Close all terminal windows for the installation to take effect
-* Check if node was propely installed by running 'node -v' in the terminal
-
+* Check if node was propely installed by running `node -v` in the terminal
 
 # Using the termianl
 * `dir` to list the files and directories in your current directory
@@ -18,14 +17,28 @@ How to download node:
 # Installing and using Git
 Go to https://git-scm.com/download/ and download 64-bit version for your system
 ### Initializing and setup new repository
-* `git init`
+* `git init` initializes the new repository
 * Alternatively you can clones someones elses repository `git clone <repository url>`  
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
 ### Staging and commiting
 * `git add .`  for all staging all files
 * `git add <file name> <file name>` , for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
+* `git commit -m "<commit message>"` the commit message should briefly describe the changes you have made to the branch
 * `git push origin <branch name>` for pushing the commited code to the common remote github repository
+
+### Pulling code
+* `git pull origin <branch name>` To pull the changes from the remote repository
+
+
+### Working with branches
+The changes you make to the project should not be commited to the local or remote master branch, but rather a temporary branch containing the changes you made. This is to avoid problems regarding two people making changes to the same file.
+* `git branch` to view a list over the local branches and the current active branch
+* `git branch <new branch name>` to create a new branch 
+* `git checkout <branch name>` to switch to a specific branch
+* `git checkout -b <new branch name>` to both create a new branch and switch to it
+* Make sure to always push to specific branch. If no branch is specified, then the changes may be pushed to the master branch, overriding the content there.
+* After making a new branch and checking out to it, you can stage and commit as usual
 
 
 # Setting up the project on your computer
@@ -33,7 +46,7 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * Run `git clone https://github.com/sigrikd/CIBUS.git`
 * Run `npm install`
 * Run `npm start`
-* Type in 'localhost:3000' in the search filed in your browser
+* Type in `localhost:3000` in the search filed in your browser
 
 
 
