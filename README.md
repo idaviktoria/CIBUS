@@ -1,8 +1,8 @@
 
 # Index
-[Installing NodeJS](#Installing-NodeJS)
-[#Using the terminal](#Using-the-terminal)
-[Installing and usage of Git](#Installing-and-usage-of-Git)
+* [Installing NodeJS](#Installing-NodeJS)
+* [#Using the terminal](#Using-the-terminal)
+* [Installing and usage of Git](#Installing-and-usage-of-Git)
 
 
 # Installing NodeJS
