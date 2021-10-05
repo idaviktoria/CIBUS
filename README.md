@@ -1,6 +1,12 @@
 
+# Index
+[Installing NodeJS](#Installing-NodeJS)
+[#Using the terminal](#Using-the-terminal)
+[Installing and usage of Git](#Installing-and-usage-of-Git)
+
+
 # Installing NodeJS
-Node is a server runtime built around the chrome V8 engine for javascript. Node will take care of everything that needs to happend on the server. Together with node comes 'npm' with stands for node package manager. It will take care of all the modules which the projects depends on. A module is a bundle of function and objects we can use in our code. 
+Node is a server runtime built around the chrome V8 engine for javascript. Node will take care of everything that needs to happen on the server. Together with node comes 'npm' with stands for node package manager. It will take care of all the modules which the projects depend on. A module is a bundle of function and objects we can use in our code. 
 How to download node:
 * Go to https://nodejs.org/en/ and download the version which says latest (lts)
 * Follow the installation instructions, make sure node is added to path
@@ -20,17 +26,17 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * Alternatively you can clones someones elses repository `git clone <repository url>`  
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
-### Staging and commiting
+### Staging and committing
 * `git add .`  for all staging all files
-* `git add <file name> <file name>` , for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
+* `git add <file name> <file name>` for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
 * `git commit -m "<commit message>"` the commit message should briefly describe the changes you have made to the branch
 * `git push origin <branch name>` for pushing the commited code to the remote github repository
 
-### Pulling code
+### Pulling 
 * `git pull origin <branch name>` To pull the changes from the remote repository
+* The above command is the commbination of the following commands
 
-
-### Working with branches
+### Branches
 The changes you make to the project should not be commited to the local or remote master branch, but rather a temporary branch containing the changes you made. This is to avoid problems regarding two people making changes to the same file.
 * `git branch` to view a list over the local branches and the current active branch
 * `git branch <new branch name>` to create a new branch 
@@ -39,15 +45,18 @@ The changes you make to the project should not be commited to the local or remot
 * Make sure to always push to specific branch. If no branch is specified, then the changes may be pushed to the master branch, overriding the content there.
 * After making a new branch and checking out to it, you can stage and commit as usual
 * `git branch -d <local branch name>` to delete a branch locally
-* `git push origin --delete <remote branch name>` to delete a branch remotelly
+* `git push origin --delete <remote branch name>` to delete a branch remotely
 
+### Troubleshooting
+* If you get an error when running a command, try adding the `-f` flag (f stands for force) to execute the command despite the error
 
 # Setting up this project on your computer
-* Open up the terminal and navigate to the folder you want your local version of the project in and rum the following commands
+* Open the terminal and navigate to the folder you want your local version of the project in and rum the following commands
 * `git clone https://github.com/sigrikd/CIBUS.git`
 * `npm install`
 * `npm start`
 * Type in `localhost:3000` in the search bar in your browser
+
 
 
 
