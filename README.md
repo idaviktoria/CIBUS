@@ -1,5 +1,3 @@
-# CIBUS
-
 
 # Installing NodeJS
 Node is a server runtime built around the chrome V8 engine for javascript. Node will take care of everything that needs to happend on the server. Together with node comes 'npm' with stands for node package manager. It will take care of all the modules which the projects depends on. A module is a bundle of function and objects we can use in our code. 
