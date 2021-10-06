@@ -23,7 +23,7 @@ How to download node:
 Go to https://git-scm.com/download/ and download 64-bit version for your system
 ### Initializing and setup new repository
 * `git init` initializes the new repository
-* Alternatively you can clones someones elses repository `git clone <repository url>`  
+* Alternatively you can clone someones elses repository `git clone <repository url>`  
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
 ### Staging and committing
@@ -36,6 +36,7 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 ### Pulling 
 * `git pull origin <branch name>` To pull the changes from the remote repository
 * The above command is the commbination of the following commands
+
 
 ### Branches
 The changes you make to the project should not be commited to the local or remote master branch, but rather a temporary branch containing the changes you made. This is to avoid problems regarding two people making changes to the same file.
