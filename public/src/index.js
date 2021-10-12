@@ -2,8 +2,6 @@
 export default {
     name: 'index',
     
-    
-
     data() {
         return {}
     },
@@ -37,8 +35,8 @@ export default {
             
             <div class="index-card">
                 <a href="#">
-                    <h1>Facebook</h1>
-                    <p>Kom og besøk cibus sin facebook side! Her finner du informasjon som legges ut fortløpende</p>
+                    <h1>EmulgatKOR</h1>
+                    <p>EmulgatKOR er Cibus sitt eget blandakor! Her er det rom for alle som vil bli med</p>
                 </a>
             </div>
 

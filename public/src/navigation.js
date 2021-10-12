@@ -5,15 +5,12 @@ export default {
     name: 'navigation',
     data() {
         return {
-
-            // links: [
-            //     {name: 'index',      path: '#/index'},
-            //     {name: 'styret',     path: '#/styret'},
-            //     {name: 'ny-student', path: '#/ny-student'},
-            //     {name: 'fadderuka',  path: '#/fadderuka'},
-            // ],
-
-            links: ['#/index', '#/styret', '#/ny-student', '#/fadderuka']
+            links: [
+                {name: 'Index',      path: '#/index'},
+                {name: 'Styret',     path: '#/styret'},
+                {name: 'Ny student', path: '#/ny-student'},
+                {name: 'Fadderuka',  path: '#/fadderuka'},
+            ],
         }
     },
     methods: {},
@@ -25,7 +22,7 @@ export default {
         </div>
 
         <div v-for="link in links"> 
-            <a v-bind:href="link">{{ link.substring(2) }}</a>
+            <a v-bind:href="link.path">{{ link.name }}</a>
         </div>
     </nav>
     `,   
