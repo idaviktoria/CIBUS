@@ -1,9 +1,18 @@
 
 
+
 export default {
     name: 'navigation',
     data() {
         return {
+
+            // links: [
+            //     {name: 'index',      path: '#/index'},
+            //     {name: 'styret',     path: '#/styret'},
+            //     {name: 'ny-student', path: '#/ny-student'},
+            //     {name: 'fadderuka',  path: '#/fadderuka'},
+            // ],
+
             links: ['#/index', '#/styret', '#/ny-student', '#/fadderuka']
         }
     },
