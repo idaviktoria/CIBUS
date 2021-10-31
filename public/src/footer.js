@@ -24,9 +24,8 @@ export default {
         </section>
 
         <section id="social-media-section">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">Instagram</a>
+            <a target="_blank" href="https://www.facebook.com/cibusmattek/">Facebook</a>
+            <a target="_blank" href="https://www.instagram.com/cibus.mattek/">Instagram</a>
         </section>
 
     </footer>
