@@ -42,13 +42,10 @@ export default {
 
             <div class="index-card">
                 <a href="#">
-                    <h1>Facebook</h1>
-                    <p>Kom og besøk cibus sin facebook side! Her finner du informasjon som legges ut fortløpende</p>
+                    <h1>Styret</h1>
+                    <p>Styret består av medlemmer i Cibus som ønsker å engasjere seg litt ekstra for å sørge for at linjeforneingens medlemmer har en fantastisk studietid!</p>
                 </a>
             </div>
-
-
-            
         </section>
     </div>
     `,

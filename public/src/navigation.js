@@ -7,7 +7,7 @@ export default {
         return {
             links: [
                 {name: 'Index',      path: '#/index'},
-                {name: 'Styret',     path: '#/styret'},
+                {name: 'Kalender',   path: '#/kalender'},
                 {name: 'Ny student', path: '#/ny-student'},
                 {name: 'Fadderuka',  path: '#/fadderuka'},
             ],
