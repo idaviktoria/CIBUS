@@ -46,8 +46,8 @@ nav > div > a:hover {
 #nav-img{
     background-color: white;
     color: white;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 }
 
 /* Index */
@@ -150,9 +150,17 @@ footer > section {
     text-align: left;
 }
 
-#contact-info-section > p {
+#contact-info-section > a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
     margin: 5px;
 }
+
+#contact-info-section > a:hover {
+    text-decoration: underline;
+}
+
 
 #social-media-section{
     display: flex;

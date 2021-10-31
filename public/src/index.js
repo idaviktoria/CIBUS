@@ -20,14 +20,14 @@ export default {
         </section>
         <section id="index-card-section">
             <div class="index-card">
-                <a href="#">
+                <a target="_blank" href="https://www.facebook.com/cibusmattek/">
                     <h1>Facebook</h1>
                     <p>Kom og besøk cibus sin facebook side! Her finner du informasjon som legges ut fortløpende</p>
                 </a>
             </div>
 
             <div class="index-card">
-                <a href="#">
+                <a target="_blank" href="https://use.mazemap.com/#v=1&zlevel=2&center=10.387566,63.428190&zoom=18&campusid=21&sharepoitype=poi&sharepoi=680362">
                     <h1>Kontoret</h1>
                     <p>Trykk her for å se hvor kontoret ligger på MazeMap</p>
                 </a>

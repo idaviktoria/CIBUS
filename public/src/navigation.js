@@ -6,10 +6,10 @@ export default {
     data() {
         return {
             links: [
-                {name: 'Index',      path: '#/index'},
-                {name: 'Kalender',   path: '#/kalender'},
-                {name: 'Ny student', path: '#/ny-student'},
-                {name: 'Fadderuka',  path: '#/fadderuka'},
+                {name: 'Kalender',      path: '#/kalender'},
+                {name: 'Ny student',    path: '#/ny-student'},
+                {name: 'Fadderuka',     path: '#/fadderuka'},
+                {name: 'Bildegalleri',  path: '#/bildegalleri'},
             ],
         }
     },
@@ -18,7 +18,7 @@ export default {
     template: `
     <nav>
         <div> 
-            <a id="nav-img"> <img src="images/cibus-logo.svg" alt=""> </a>     
+            <a href="#/index" id="nav-img"> <img src="images/cibus-logo.svg" alt=""> </a>     
         </div>
 
         <div v-for="link in links"> 
