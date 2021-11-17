@@ -53,7 +53,7 @@ The changes you make to the project should not be commited to the local or remot
 * If you get an error when running a command, try adding the `-f` flag (f stands for force) to execute the command despite the error
 
 # Setting up this project on your computer
-* Open the terminal and navigate to the folder you want your local version of the project in and rum the following commands
+* Open the terminal and navigate to the folder you want your local version of the project in and run the following commands
 * `git clone https://github.com/sigrikd/CIBUS.git`
 * `npm install`
 * `npm start`
