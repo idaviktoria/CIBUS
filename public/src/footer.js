@@ -25,8 +25,8 @@ export default {
 
         <section id="social-media-section">
             <a target="_blank" href="https://www.facebook.com/cibusmattek/">  <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://www.instagram.com/cibus.mattek/"><i class="fa fa-instagram  fa-2x" aria-hidden="true"></i></a>
-            <a target="_blank" href="https://www.ntnu.no/studier/mtmat">      <i class="fa fa-university  fa-2x" aria-hidden="true"></i></a>
+            <a target="_blank" href="https://www.instagram.com/cibus.mattek/"><i class="fa fa-instagram  fa-2x" aria-hidden="true">     </i></a>
+            <a target="_blank" href="https://www.ntnu.no/studier/mtmat">      <i class="fa fa-graduation-cap  fa-2x" aria-hidden="true"></i></a>
         </section>
 
     </footer>

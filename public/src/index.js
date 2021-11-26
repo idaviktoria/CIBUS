@@ -15,7 +15,7 @@ export default {
                 <p>Velkommen til nettsiden for linjeforening for matvitenskap, teknologi og bærekraft ved NTNU Trondheim! Nettsiden er et pågående arbeid og det bes være oppmerksom på mangler. Den er forhåpentligvis nærmere ferdigstilt i august 2021.</p>
             </div>
             <div>
-                <img id="index-main-img" src="images/cibus-logo.svg" alt="">
+                <img id="index-main-img" src="images/Forsidebilde-mindre.jpg" alt="">
             </div>
         </section>
         <section id="index-card-section">
