@@ -20,7 +20,8 @@ export default {
         <section id="contact-info-section">
             <a href="https://use.mazemap.com/#v=1&zlevel=2&center=10.387566,63.428190&zoom=18&campusid=21&sharepoitype=poi&sharepoi=680362" target="_blank">Kontor: G258 i Akrinn vest</a>
             <a href="mailto:cibus.mattek@gmail.com">Email: cibus.mattek@gmail.com</a>
-            <a href="tel:735-266-66">Nummer: 735 266 66</a>
+            <a href="tel:735-266-66">Telefon: 735 266 66</a>
+            <a href="https://torst.ddns.net/#/" target="_blank">Tørst?</a>
         </section>
 
         <section id="social-media-section">

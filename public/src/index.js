@@ -19,33 +19,33 @@ export default {
             </div>
         </section>
         <section id="index-card-section">
-            <div class="index-card">
-                <a target="_blank" href="https://www.facebook.com/cibusmattek/">
+            <a class="index-card" target="_blank" href="https://www.facebook.com/cibusmattek/">
+                <div>
                     <h1>Facebook</h1>
                     <p>Kom og besøk cibus sin facebook side! Her finner du informasjon som legges ut fortløpende</p>
-                </a>
-            </div>
+                </div>
+            </a>
 
-            <div class="index-card">
-                <a target="_blank" href="https://use.mazemap.com/#v=1&zlevel=2&center=10.387566,63.428190&zoom=18&campusid=21&sharepoitype=poi&sharepoi=680362">
+            <a class="index-card"  target="_blank" href="https://use.mazemap.com/#v=1&zlevel=2&center=10.387566,63.428190&zoom=18&campusid=21&sharepoitype=poi&sharepoi=680362">
+                <div>
                     <h1>Kontoret</h1>
                     <p>Trykk her for å se hvor kontoret ligger på MazeMap</p>
-                </a>
-            </div>
+                </div>
+            </a>
             
-            <div class="index-card">
-                <a href="#">
+            <a class="index-card" href="#">
+                <div>
                     <h1>EmulgatKOR</h1>
                     <p>EmulgatKOR er Cibus sitt eget blandakor! Her er det rom for alle som vil bli med</p>
-                </a>
-            </div>
+                </div>
+            </a>
 
-            <div class="index-card">
-                <a href="#">
+            <a class="index-card" href="/#/styret">
+                <div>
                     <h1>Styret</h1>
                     <p>Styret består av medlemmer i Cibus som ønsker å engasjere seg litt ekstra for å sørge for at linjeforneingens medlemmer har en fantastisk studietid!</p>
-                </a>
-            </div>
+                </div>
+            </a>
         </section>
     </div>
     `,

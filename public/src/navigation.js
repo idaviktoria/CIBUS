@@ -18,7 +18,7 @@ export default {
     template: `
     <nav>
         <div> 
-            <a href="https://torst.ddns.net/#/" id="nav-img"> <img src="images/cibus-logo.svg" alt=""> </a>     
+            <a href="/#/index" id="nav-img"> <img src="images/cibus-logo.svg" alt=""> </a>     
         </div>
 
         <div v-for="link in links"> 

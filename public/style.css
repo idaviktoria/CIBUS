@@ -105,23 +105,24 @@ nav > div > a:hover {
     padding-bottom: 80px;
     border-bottom: 5px solid var(--main-color);
     transition: 0.2s;
+    text-decoration: none;
 }
 
 .index-card:hover{
     transform: scale(1.05);
 }
 
-.index-card > a {
+.index-card > div {
     text-decoration: none;
 
 }
 
-.index-card > a > h1 {
+.index-card > div > h1 {
     font-size: 28px;
     color: var(--main-color);
 }
 
-.index-card > a > p {
+.index-card > div > p {
     font-size: 18px;
     color: black;
 }
@@ -204,3 +205,24 @@ footer > section {
     font-size: 19px;
 
 }
+
+
+/*
+Styret
+*/
+
+#medlem-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.styremedlem-card {
+    border: 1px solid black;
+
+}
+
+.styremedlem-card > img {
+    width: 200px;
+    height: 200px;
+}
+

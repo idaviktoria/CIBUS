@@ -3,11 +3,13 @@ import FooterSection from "./footer.js";
 import Index from "./index.js";
 
 import NyStudent from "./ny-student.js";
+import Styret from "./styret.js";
 
 const routes = [
     {path: '/',      component: Index},
     {path: '/index', component: Index},
-    {path: '/ny-student', component: NyStudent}
+    {path: '/ny-student', component: NyStudent},
+    {path: '/styret',     component: Styret},
 ];
 
 
