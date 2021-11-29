@@ -44,7 +44,7 @@ The changes you make to the project should not be commited to the local or remot
 * `git branch <new branch name>` to create a new branch 
 * `git checkout <branch name>` to switch to a specific branch
 * `git checkout -b <new branch name>` to both create a new branch and switch to it
-* Make sure to always push to specific branch. If no branch is specified, then the changes may be pushed to the master branch, overriding the content there.
+* Make sure to always push to specific branch. If no branch is specified, then the changes may be pushed to the master branch, overriding the content there. Always use `git push origin <branch name>`
 * After making a new branch and checking out to it, you can stage and commit as usual
 * `git branch -d <local branch name>` to delete a branch locally
 * `git push origin --delete <remote branch name>` to delete a branch remotely
