@@ -26,11 +26,16 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * Alternatively you can clone someones elses repository `git clone <repository url>`  
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
+### Access key
+* To modify the remote repository you will special access rights. These comes in form of a access key, which is private to you. The origin url specifies which repository your are working with and is used by git on commands like `push`, `pull` etc. The access key needs to be a part of this url and get be set by typing `git remote origin add https://github.com/<your access key>/sigrikd/CIBUS.git`. 
+* If you get an error, your origin may already be set. Use `git remote rm origin` to remove it and try again
+* Use `git config --get remote.origin.url` to show your origin url
+
 ### Staging and committing
 * `git add .`  for all staging all files
 * `git add <file name> <file name>` for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
 * `git commit -m "<commit message>"` the commit message should briefly describe the changes you have made to the branch
-* `git commit -am.` commits without a message 
+* `git commit -am "<commit message>"` is a combination of `git add .`and git `git commit -m ""`
 * `git push origin <branch name>` for pushing the commited code to the remote github repository
 
 ### Pulling 
@@ -48,6 +53,8 @@ The changes you make to the project should not be commited to the local or remot
 * After making a new branch and checking out to it, you can stage and commit as usual
 * `git branch -d <local branch name>` to delete a branch locally
 * `git push origin --delete <remote branch name>` to delete a branch remotely
+* To rename a branch, start by switch to the branch and then type `git branch -m <new name>`. We then need to update the remote repository by typing `git push origin -u <new_name>` followed by `git push origin --delete <old_name>`. The last step is not neccesary if your is only on your local machine
+
 
 ### Troubleshooting
 * If you get an error when running a command, try adding the `-f` flag (f stands for force) to execute the command despite the error
@@ -55,7 +62,7 @@ The changes you make to the project should not be commited to the local or remot
 # Setting up this project on your computer
 * Open the terminal and navigate to the folder you want your local version of the project in and run the following commands
 * `git clone https://github.com/sigrikd/CIBUS.git`
-* `npm install`
+* `npm i` or `npm install`
 * `npm start`
 * Type in `localhost:3000` in the search bar in your browser
 
