@@ -27,9 +27,10 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
 ### Access to repository
-* To modify the remote repository you will special access rights. These comes in form of a access key, which is private to you. The origin url specifies which repository your are working with and is used by git on commands like `push`, `pull` etc. The access key needs to be a part of this url and get be set by typing `git remote origin add https://github.com/<your access key>/sigrikd/CIBUS.git`. 
-* If you get an error, your origin may already be set. Use `git remote rm origin` to remove it and try again
-* Use `git config --get remote.origin.url` to show your origin url
+* To modify the remote repository you will special access rights. These comes in form of a access key, which is private to you. The origin url specifies which repository your are working with and is used by git on commands like `push`, `pull` etc. The access key needs to be a part of this url.
+* `git remote origin add https://github.com/<your access key>/sigrikd/CIBUS.git` to set the url.
+* `git remote rm origin` to remove current origin url. You may get an error when trying to set the url, to use this command to clear it first
+* `git config --get remote.origin.url` to show your origin url
 * Alternativly the admin of the repository can authorize your account and have you sign in with a vscode-token. This omits the need for a access token in the url
 
 ### Staging and committing
@@ -53,7 +54,10 @@ The changes you make to the project should not be commited to the local or remot
 * After making a new branch and checking out to it, you can stage and commit as usual
 * `git branch -d <local branch name>` to delete a branch locally
 * `git push origin --delete <remote branch name>` to delete a branch remotely
-* To rename a branch, start by switch to the branch and then type `git branch -m <new name>`. We then need to update the remote repository by typing `git push origin -u <new_name>` followed by `git push origin --delete <old_name>`. The last step is not neccesary if your is only on your local machine
+
+* `git branch -m <new name>` to rename the local branch 
+* `git push origin -u <new_name>` to push the repository wit the new name to the remote repository  
+* `git push origin --delete <old_name>` to delete the remote branch with the old name
 
 
 ### Troubleshooting
