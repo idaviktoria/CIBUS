@@ -67,7 +67,7 @@ The changes you make to the project should not be commited to the local or remot
 * Open the terminal and navigate to the folder you want your local version of the project in and run the following commands
 * `git clone https://github.com/sigrikd/CIBUS.git`
 * `npm i` or `npm install`
-* `npm start`
+* `npm run dev`
 * Type in `localhost:3000` in the search bar in your browser
 
 
