@@ -26,13 +26,6 @@ Go to https://git-scm.com/download/ and download 64-bit version for your system
 * Alternatively you can clone someones elses repository `git clone <repository url>`  
 * `git remote add origin <repository url>` stores the url to the remote repository in a variable named origin
 
-### Access to repository
-* To modify the remote repository you will special access rights. These comes in form of a access key, which is private to you. The origin url specifies which repository your are working with and is used by git on commands like `push`, `pull` etc. The access key needs to be a part of this url.
-* `git remote origin add https://github.com/<your access key>/sigrikd/CIBUS.git` to set the url.
-* `git remote rm origin` to remove current origin url. You may get an error when trying to set the url, to use this command to clear it first
-* `git config --get remote.origin.url` to show your origin url
-* Alternativly the admin of the repository can authorize your account and have you sign in with a vscode-token. This omits the need for a access token in the url
-
 ### Staging and committing
 * `git add .`  for all staging all files
 * `git add <file name> <file name>` for staging specific file. Requires minimum one filename but can take in multiple filenames seperated by whitespace
@@ -56,7 +49,7 @@ The changes you make to the project should not be commited to the local or remot
 * `git push origin --delete <remote branch name>` to delete a branch remotely
 
 * `git branch -m <new name>` to rename the local branch 
-* `git push origin -u <new_name>` to push the repository wit the new name to the remote repository  
+* `git push origin -u <new_name>` to push the repository with the new name to the remote repository  
 * `git push origin --delete <old_name>` to delete the remote branch with the old name
 
 
